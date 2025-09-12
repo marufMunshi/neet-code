@@ -62,7 +62,7 @@ var longestCommonPrefix = function (strs) {
     if (allMatch) {
       result.push(charToMatch);
     } else {
-      break; // Stop checking further characters
+      break;
     }
   }
 
