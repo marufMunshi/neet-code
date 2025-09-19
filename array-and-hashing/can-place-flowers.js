@@ -19,18 +19,6 @@
  */
 
 /**
- * Solution approach
- *
- * as the array will start either 0 or 1
- * if the array start with 0, we can place flower at every even index
- * if the array start with 1, we can place flower at every odd index
- * so, inside the loop we will check if the desired position has flower or not
- * if there is no flower we will increment the flower count
- * if count is less than we return false
- *
- */
-
-/**
  * @param {number[]} flowerbed
  * @param {number} n
  * @return {boolean}
